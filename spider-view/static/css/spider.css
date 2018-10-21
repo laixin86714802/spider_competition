@@ -1,0 +1,287 @@
+/* Non-responsive overrides
+ *
+ * Utilitze the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+/* 导航栏 */
+.navbar-inverse {
+  background-color: #383838;
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-logo {
+  background: url('../images/logo.png') top left no-repeat;
+  color: #ffffff;
+  font-size: 156.25%;
+  font-weight: bold;
+  margin: 15px 0.6% 5px 4.75%;
+  padding: 12px 0 5px 42px;
+}
+.navbar-inverse .navbar-logo a {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-logo a:hover,
+.navbar-inverse .navbar-logo a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-version {
+  color: #ffffff;
+  font-size: x-small;
+  font-weight: normal;
+}
+.navbar-inverse .navbar-nav {
+  font-family: Arial;
+  font-size: 81.25%;
+}
+.navbar-inverse .navbar-nav > li {
+  padding: 25px 12px 25px 12px;
+  cursor: pointer;
+}
+.navbar-inverse .navbar-nav > li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-inverse .navbar-nav > li > a {
+  padding: 0px;
+  color: #ccc;
+}
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-inverse .navbar-nav > .active > a {
+  color: #fff;
+  font-weight: bold;
+  background-color: transparent;
+  border-bottom: 1px solid #f9d10f;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li.dropdown {
+  padding: 0;
+}
+.navbar-inverse .navbar-nav > li.dropdown > a {
+  padding: 25px 12px 25px 12px;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+
+.container-full {
+  padding: 0 105px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: none;
+  min-width: 1075px;
+}
+
+.navbar-header {
+  float: left;
+}
+
+.navbar-logo {
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.navbar-logo a:hover,
+.navbar-logo a:focus {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-logo {
+    margin-left: -15px;
+  }
+}
+
+.navbar-inverse .navbar-version {
+  color: #ffffff;
+  font-size: x-small;
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .navbar-enviro {
+    width: auto;
+  }
+}
+.navbar-enviro {
+  margin: 30px 20px 0px 12px;
+}
+.navbar-enviro .navbar-enviro-name {
+  color: #f9d10f;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 118.75%;
+  font-weight: bold;
+  line-height: 100%;
+}
+.navbar-enviro .navbar-enviro-server {
+  color: #999;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 75%;
+}
+
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  color: #2f80e4;
+  padding: 15px;
+}
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+
+/* 侧边栏效果 */
+.sidebar{
+  background: #333645;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  overflow: auto;
+  transition: all 0.2s ease 0s;
+}
+.main{
+  overflow: hidden;
+  position: absolute;
+  left: 200px;
+  right: 0;
+  transition: all 0.3s ease 0s;
+}
+
+
+/* 侧边栏 */
+.sidebar{
+  position: absolute;
+  width: 200px;
+  max-height: 200%;
+  background: #262930;
+  transition: all .3s ease;
+}
+
+/*sidenav*/
+.sidenav {padding: 0; }
+.sidenav a{color: #9d9d9d; }
+.sidenav > li > a{
+  display: block; padding: 10px;
+  font-size: 14px; border-left: 2px solid transparent;
+  transition: .3s linear;
+}
+.sidenav > li > a > i{margin-right: 10px;}
+.sidebar-dropdown{
+  display: none;
+  font-size: 14px; background: #20242c; border-left: 2px solid #21b496; }
+.sidebar-dropdown > li > a{display: block; padding: 10px 0 10px 36px;}
+
+/*伸缩侧边css代码*/
+.sidebar-collapse .main{
+  left: 60px;
+  margin-left: 0;
+}
+.sidebar-collapse .sidebar{width: 60px;}
+.sidebar-collapse .sidenav > li{position: relative; z-index: 9999; text-align: center;}
+.sidebar-collapse .sidespan,
+.sidebar-collapse .iright,
+.sidebar-collapse:after{
+    display: none;
+}
+.sidebar-collapse .cover{padding-top: 30px;}
+.sidebar-collapse .cover > h2{margin: 6px;}
+.sidebar-collapse .sidebar-dropdown{
+  position: absolute; top: 0; left: 60px; z-index: 9999;
+  display: none!important;
+  width: 150px; border-left: none; list-style: none;
+}
+.sidebar-collapse .sidebar-dropdown > li > a{padding-left: 0; }
+.sidebar-collapse .sidebar-dropdown > li > a:hover{background: #191e26; text-decoration: none; color: #fff;}
+.sidenav > li > a:hover{
+  border-left: 2px solid #21b496; background: #20242c; text-decoration: none;
+}
+
+/* 饼图高度 */
+.space-height {
+  height: 400px;
+  width: 100%;
+}
+
+.tip-show-set{
+  display: block;
+  width: auto;
+  line-height: 20px;
+  color: #1f96c3;
+}
+
+.span-input-style {
+  padding: 6px 12px;
+  color: #555555;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.input-left-style {
+  padding-left: 0;
+}

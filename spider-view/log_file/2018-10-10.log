@@ -1,0 +1,30 @@
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': interface.py,
+    'sys_module': interface,
+    'function': [D:\virtualenv\azkaban-python\resources\interface.py:get:19],
+    'stack_trace': None,
+    'message': 获取接口状态数据,
+    'time': 2018-10-10 19:26:58
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': interface.py,
+    'sys_module': interface,
+    'function': [D:\virtualenv\azkaban-python\resources\interface.py:get:19],
+    'stack_trace': None,
+    'message': 获取接口状态数据,
+    'time': 2018-10-10 19:28:46
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': interface.py,
+    'sys_module': interface,
+    'function': [D:\virtualenv\azkaban-python\resources\interface.py:get:23],
+    'stack_trace': None,
+    'message': 获取接口状态数据,
+    'time': 2018-10-10 19:51:48
+}

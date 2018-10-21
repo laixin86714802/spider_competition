@@ -1,0 +1,2682 @@
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': interface.py,
+    'sys_module': interface,
+    'function': [D:\virtualenv\spider-view\resources\interface.py:get:21],
+    'stack_trace': None,
+    'message': 获取接口状态数据,
+    'time': 2018-10-21 15:15:13
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:17],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:03:52
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:resource_internal_server_error:72],
+    'stack_trace': None,
+    'message': 服务发生异常: [error: the get return value must be a Response],
+    'time': 2018-10-21 16:03:52
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\python36\lib\site-packages\flask\views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\python36\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\virtualenv\spider-view\server\decorators.py", line 27, in wrapper
+    last_result = func(*args, **kwargs)
+  File "D:\virtualenv\spider-view\server\decorators.py", line 29, in wrapper
+    raise Exception('the {func_name} return value must be a Response'.format(func_name=func.__name__))
+Exception: the get return value must be a Response
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:04:31
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:05:54
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:08:05
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:08:14
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 16:08:15
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\python36\lib\site-packages\flask\ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "D:\python36\lib\site-packages\werkzeug\routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 16:09:23
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\python36\lib\site-packages\flask\ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "D:\python36\lib\site-packages\werkzeug\routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:09:28
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 16:09:29
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\python36\lib\site-packages\flask\ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "D:\python36\lib\site-packages\werkzeug\routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:09:40
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:09:42
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:11:54
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:12:06
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:12:35
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:12:59
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:13:25
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:14:09
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:14:12
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:15:44
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:45:33
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 16:45:34
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\python36\lib\site-packages\flask\ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "D:\python36\lib\site-packages\werkzeug\routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 16:45:45
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 16:46:01
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 16:46:05
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\python36\lib\site-packages\flask\ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "D:\python36\lib\site-packages\werkzeug\routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:46:32
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 16:46:37
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:46:42
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 16:46:43
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:47:06
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:47:50
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 16:47:52
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:55:57
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 16:55:59
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:57:37
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 16:57:39
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 16:57:40
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:59:06
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 16:59:07
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 16:59:08
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 16:59:15
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 16:59:28
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 16:59:58
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:01:49
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 17:01:51
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 17:02:27
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:15:59
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 17:16:02
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 17:16:14
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 17:16:39
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:22:40
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 17:22:42
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:22:59
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 17:23:02
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:32:26
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 17:32:27
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:37:27
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:45],
+    'stack_trace': None,
+    'message': 获取用户签名,
+    'time': 2018-10-21 17:37:29
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:45],
+    'stack_trace': None,
+    'message': 获取用户签名,
+    'time': 2018-10-21 17:37:56
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:43:33
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:45],
+    'stack_trace': None,
+    'message': 获取用户签名,
+    'time': 2018-10-21 17:43:34
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:45],
+    'stack_trace': None,
+    'message': 获取用户签名,
+    'time': 2018-10-21 17:43:40
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:43:52
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:54],
+    'stack_trace': None,
+    'message': 获取用户等级,
+    'time': 2018-10-21 17:43:53
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:44:35
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:54],
+    'stack_trace': None,
+    'message': 获取用户等级,
+    'time': 2018-10-21 17:44:37
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:45],
+    'stack_trace': None,
+    'message': 获取用户签名,
+    'time': 2018-10-21 17:44:54
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:45:08
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:54],
+    'stack_trace': None,
+    'message': 获取用户等级,
+    'time': 2018-10-21 17:45:10
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:52:57
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:63],
+    'stack_trace': None,
+    'message': 获取用户文章观看次数,
+    'time': 2018-10-21 17:52:58
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:53:09
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 17:53:10
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:53:12
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 17:53:39
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 17:53:40
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:45],
+    'stack_trace': None,
+    'message': 获取用户签名,
+    'time': 2018-10-21 17:53:42
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:54],
+    'stack_trace': None,
+    'message': 获取用户等级,
+    'time': 2018-10-21 17:53:44
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 17:55:45
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\python36\lib\site-packages\flask\helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "D:\python36\lib\site-packages\flask\helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:59:08
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 17:59:14
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:63],
+    'stack_trace': None,
+    'message': 获取用户文章观看次数,
+    'time': 2018-10-21 17:59:15
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:63],
+    'stack_trace': None,
+    'message': 获取用户文章观看次数,
+    'time': 2018-10-21 18:01:02
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:01:06
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:63],
+    'stack_trace': None,
+    'message': 获取用户文章观看次数,
+    'time': 2018-10-21 18:01:07
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:63],
+    'stack_trace': None,
+    'message': 获取用户文章观看次数,
+    'time': 2018-10-21 18:01:20
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:63],
+    'stack_trace': None,
+    'message': 获取用户文章观看次数,
+    'time': 2018-10-21 18:01:29
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:02:03
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:63],
+    'stack_trace': None,
+    'message': 获取用户文章观看次数,
+    'time': 2018-10-21 18:02:04
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:81],
+    'stack_trace': None,
+    'message': 获取用户粉丝数,
+    'time': 2018-10-21 18:02:17
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:63],
+    'stack_trace': None,
+    'message': 获取用户文章观看次数,
+    'time': 2018-10-21 18:02:24
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:02:51
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:81],
+    'stack_trace': None,
+    'message': 获取用户粉丝数,
+    'time': 2018-10-21 18:02:51
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:12:36
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:72],
+    'stack_trace': None,
+    'message': 获取用户粉丝数,
+    'time': 2018-10-21 18:12:37
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:12:50
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 18:12:51
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\python36\lib\site-packages\flask\ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "D:\python36\lib\site-packages\werkzeug\routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 18:12:54
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\python36\lib\site-packages\flask\ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "D:\python36\lib\site-packages\werkzeug\routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 18:13:02
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\python36\lib\site-packages\flask\ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "D:\python36\lib\site-packages\werkzeug\routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:81],
+    'stack_trace': None,
+    'message': 获取用户粉丝数,
+    'time': 2018-10-21 18:13:23
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 18:46:34
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 18:49:12
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 18:49:46
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 18:49:58
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:53:16
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:53:17
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 18:53:19
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 18:56:08
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:56:09
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 18:56:20
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:57:13
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 18:57:17
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 18:57:19
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 18:58:06
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 18:58:10
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 18:58:22
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:00:11
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 19:00:14
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:00:15
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 19:00:17
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:00:47
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 19:00:49
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:04:19
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:04:20
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 19:04:21
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 19:04:22
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:04:36
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:36],
+    'stack_trace': None,
+    'message': 视频分区,
+    'time': 2018-10-21 19:04:37
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:36],
+    'stack_trace': None,
+    'message': 视频分区,
+    'time': 2018-10-21 19:05:08
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:05:22
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:36],
+    'stack_trace': None,
+    'message': 视频分区,
+    'time': 2018-10-21 19:05:24
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:09:52
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 19:09:54
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:36],
+    'stack_trace': None,
+    'message': 视频分区,
+    'time': 2018-10-21 19:10:11
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:21:18
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 19:21:19
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:54],
+    'stack_trace': None,
+    'message': 弹幕数量,
+    'time': 2018-10-21 19:21:22
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:21:24
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:36],
+    'stack_trace': None,
+    'message': 视频分区,
+    'time': 2018-10-21 19:21:27
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 19:21:29
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:54],
+    'stack_trace': None,
+    'message': 弹幕数量,
+    'time': 2018-10-21 19:21:37
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:23:09
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 19:23:11
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 19:23:26
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 19:24:06
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:/virtualenv/spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 19:24:49
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 19:25:20
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:54],
+    'stack_trace': None,
+    'message': 弹幕数量,
+    'time': 2018-10-21 19:25:27
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:36],
+    'stack_trace': None,
+    'message': 视频分区,
+    'time': 2018-10-21 19:25:30
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 19:25:32
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 19:25:34
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 19:25:36
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:54],
+    'stack_trace': None,
+    'message': 弹幕数量,
+    'time': 2018-10-21 19:25:37
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 19:44:08
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 19:49:14
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:value_error:79],
+    'stack_trace': None,
+    'message': 服务发生异常: [error: Object of type 'generator' is not JSON serializable],
+    'time': 2018-10-21 19:49:15
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 317, in wrapper
+    return self.make_response(data, code, headers=headers)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 338, in make_response
+    resp = self.representations[mediatype](data, *args, **kwargs)
+  File "D:\python36\lib\site-packages\flask_restplus\representations.py", line 22, in output_json
+    dumped = dumps(data, **settings) + "\n"
+  File "D:\python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "D:\python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'generator' is not JSON serializable
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:/virtualenv/spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 19:50:22
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 19:53:19
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 19:55:29
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 19:55:45
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 19:57:39
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:00:11
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:01:22
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:02:07
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:02:55
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:09:50
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:10:25
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:11:50
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:17:03
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 20:21:34
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 20:21:35
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\python36\lib\site-packages\flask\ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "D:\python36\lib\site-packages\werkzeug\routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:21:58
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:32:03
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:32:50
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:33:35
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:34:15
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:40:24
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:44:11
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 20:48:10
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:48:29
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:48:35
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 20:49:18
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:internal_server_error:65],
+    'stack_trace': None,
+    'message': 内部服务发生异常: [error: WordCloud() got an unexpected keyword argument 'background_color'],
+    'time': 2018-10-21 20:50:42
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 557, in error_router
+    return original_handler(e)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\virtualenv\spider-view\route\word.py", line 40, in WordCloud
+    width=400
+TypeError: WordCloud() got an unexpected keyword argument 'background_color'
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:internal_server_error:65],
+    'stack_trace': None,
+    'message': 内部服务发生异常: [error: WordCloud() got an unexpected keyword argument 'max_words'],
+    'time': 2018-10-21 20:51:07
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 557, in error_router
+    return original_handler(e)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\virtualenv\spider-view\route\word.py", line 40, in WordCloud
+    width=400
+TypeError: WordCloud() got an unexpected keyword argument 'max_words'
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:internal_server_error:65],
+    'stack_trace': None,
+    'message': 内部服务发生异常: [error: WordCloud() got an unexpected keyword argument 'background_color'],
+    'time': 2018-10-21 20:52:28
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 557, in error_router
+    return original_handler(e)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\virtualenv\spider-view\route\word.py", line 40, in WordCloud
+    width=400
+TypeError: WordCloud() got an unexpected keyword argument 'background_color'
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:internal_server_error:65],
+    'stack_trace': None,
+    'message': 内部服务发生异常: [error: No module named 'matplotlib'],
+    'time': 2018-10-21 20:53:00
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 557, in error_router
+    return original_handler(e)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\virtualenv\spider-view\route\word.py", line 40, in WordClouds
+    width=400
+  File "D:\python36\lib\site-packages\wordcloud\wordcloud.py", line 300, in __init__
+    import matplotlib
+ModuleNotFoundError: No module named 'matplotlib'
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:internal_server_error:65],
+    'stack_trace': None,
+    'message': 内部服务发生异常: [error: cannot open resource],
+    'time': 2018-10-21 20:53:55
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 557, in error_router
+    return original_handler(e)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\virtualenv\spider-view\route\word.py", line 42, in WordClouds
+    wc.generate(cloud_text)
+  File "D:\python36\lib\site-packages\wordcloud\wordcloud.py", line 605, in generate
+    return self.generate_from_text(text)
+  File "D:\python36\lib\site-packages\wordcloud\wordcloud.py", line 587, in generate_from_text
+    self.generate_from_frequencies(words)
+  File "D:\python36\lib\site-packages\wordcloud\wordcloud.py", line 473, in generate_from_frequencies
+    font = ImageFont.truetype(self.font_path, font_size)
+  File "D:\python36\lib\site-packages\PIL\ImageFont.py", line 275, in truetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\python36\lib\site-packages\PIL\ImageFont.py", line 144, in __init__
+    self.font = core.getfont(font, size, index, encoding, layout_engine=layout_engine)
+OSError: cannot open resource
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:internal_server_error:65],
+    'stack_trace': None,
+    'message': 内部服务发生异常: [error: cannot open resource],
+    'time': 2018-10-21 20:54:10
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 557, in error_router
+    return original_handler(e)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\virtualenv\spider-view\route\word.py", line 42, in WordClouds
+    wc.generate(cloud_text)
+  File "D:\python36\lib\site-packages\wordcloud\wordcloud.py", line 605, in generate
+    return self.generate_from_text(text)
+  File "D:\python36\lib\site-packages\wordcloud\wordcloud.py", line 587, in generate_from_text
+    self.generate_from_frequencies(words)
+  File "D:\python36\lib\site-packages\wordcloud\wordcloud.py", line 473, in generate_from_frequencies
+    font = ImageFont.truetype(self.font_path, font_size)
+  File "D:\python36\lib\site-packages\PIL\ImageFont.py", line 275, in truetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\python36\lib\site-packages\PIL\ImageFont.py", line 144, in __init__
+    self.font = core.getfont(font, size, index, encoding, layout_engine=layout_engine)
+OSError: cannot open resource
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:internal_server_error:65],
+    'stack_trace': None,
+    'message': 内部服务发生异常: [error: The view function did not return a valid response. The function either returned None or ended without a return statement.],
+    'time': 2018-10-21 20:55:14
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:internal_server_error:65],
+    'stack_trace': None,
+    'message': 内部服务发生异常: [error: 'sign'],
+    'time': 2018-10-21 21:10:16
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python36\lib\site-packages\flask_restplus\api.py", line 557, in error_router
+    return original_handler(e)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\python36\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\virtualenv\spider-view\route\word.py", line 28, in NameClouds
+    text += re.sub(r'[-,$\(\)#\+\&\*:：\.·`・|\s，。！/~\r\n=\!？、…_;\\—@\?（）～\']', '', i['sign'])
+KeyError: 'sign'
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:internal_server_error:65],
+    'stack_trace': None,
+    'message': 内部服务发生异常: [error: The view function did not return a valid response. The function either returned None or ended without a return statement.],
+    'time': 2018-10-21 21:10:32
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "D:\python36\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:12:21
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:12:54
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:13:27
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:13:46
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:19:37
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:19:54
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:20:39
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:20:46
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:21:03
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:21:07
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:21:17
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:21:40
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:21:44
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:22:00
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:22:04
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:22:08
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:22:30
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:22:33
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:22:42
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:22:45
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:22:48
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:22:56
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:23:44
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:23:59
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:24:02
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:24:06
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 21:24:12
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:24:15
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:24:53
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:24:56
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:24:58
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:25:08
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:25:11
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:25:17
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:27:09
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:27:13
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:27:30
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:27:33
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:30:29
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:27],
+    'stack_trace': None,
+    'message': 用户名词频统计,
+    'time': 2018-10-21 21:30:32
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:27],
+    'stack_trace': None,
+    'message': 用户名词频统计,
+    'time': 2018-10-21 21:30:38
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:27],
+    'stack_trace': None,
+    'message': 用户名词频统计,
+    'time': 2018-10-21 21:30:51
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 21:31:38
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:27],
+    'stack_trace': None,
+    'message': 用户名词频统计,
+    'time': 2018-10-21 21:31:43
+}

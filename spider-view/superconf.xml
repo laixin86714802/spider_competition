@@ -1,0 +1,149 @@
+#Azkaban Personalization Settings
+#服务器UI名称,用于服务器上方显示的名字
+azkaban.name=Test
+#描述
+azkaban.label=My Local Azkaban  
+#UI颜色                             
+azkaban.color=#FF3601                                                 
+azkaban.default.servlet.path=/index 
+#默认根web目录
+web.resource.dir=web/   
+#默认时区,已改为亚洲/上海 默认为美国                                              
+default.timezone.id=Asia/Shanghai                          
+#Azkaban UserManager class
+#用户权限管理默认类
+user.manager.class=azkaban.user.XmlUserManager 
+#用户配置,具体配置参加下文  
+user.manager.xml.file=conf/azkaban-users.xml              
+
+#Loader for projects
+# global配置文件所在位置
+executor.global.properties=conf/global.properties    
+azkaban.project.dir=projects                                                
+ #数据库类型
+database.type=mysql  
+#端口号                                                            
+mysql.port=3306    
+#数据库连接IP                                                                   
+mysql.host=localhost  
+#数据库实例名                                                    
+mysql.database=azkaban 
+#数据库用户名                                                      
+mysql.user=root    
+#数据库密码                                                             
+mysql.password=root  
+#最大连接数                                                        
+mysql.numconnections=100                                                  
+
+# Velocity dev mode
+# Jetty服务器属性.
+velocity.dev.mode=false
+#最大线程数
+jetty.maxThreads=25  
+#Jetty SSL端口                                                             
+jetty.ssl.port=8443   
+#Jetty端口                                                                
+jetty.port=8081     
+#SSL文件名                                                                    
+jetty.keystore=keystore
+#SSL文件密码                                                          
+jetty.password=123456   
+#Jetty主密码 与 keystore文件相同                                                          
+jetty.keypassword=123456    
+#SSL文件名                                                  
+jetty.truststore=keystore  
+# SSL文件密码                                                              
+jetty.trustpassword=123456                                                   
+
+# 执行服务器属性
+#执行服务器端口
+executor.port=12321                                                               
+
+# 邮件设置
+mail.sender=xxxxxxxx@163.com                                       #发送邮箱
+mail.host=smtp.163.com                                                       #发送邮箱smtp地址
+mail.user=xxxxxxxx                                       #发送邮件时显示的名称
+mail.password=**********                                                 #邮箱密码
+job.failure.email=xxxxxxxx@163.com                              #任务失败时发送邮件的地址
+job.success.email=xxxxxxxx@163.com                            #任务成功时发送邮件的地址
+lockdown.create.projects=false                                           #
+cache.directory=cache                                                            #缓存目录
+
+
+
+
+{
+    // 基本配置
+    "azkaban": {
+        // UI名称
+        "name": "Test",
+        // 描述
+        "label": "My Local Azkaban",
+        // UI颜色
+        "color": "#FF3601",
+        // 模板
+        "servlet_path": "/index",
+        // 默认根web资源目录
+        "resource_dir": "web/",
+        // 时区
+        "timezone": "Asia/Shanghai"
+    },
+    // 用户权限管理
+    "user": {
+        // 默认类
+        "manager_class": "azkaban.user.XmlUserManager",
+        // 用户配置文件
+        "manager_xml": "conf/azkaban-users.xml",
+    },
+    // 项目
+    "projects": {
+        "global_properties": "conf/global.properties",
+        "dir": "projects"
+    },
+    // 数据库
+    "databases": {
+        "type": "mysql",
+        "port": 3306,
+        "host": "localhost",
+        "database": "azkaban",
+        "user": "root",
+        "password": "123456",
+        "numconnections": 100
+    },
+    // Jetty服务器
+    "jetty": {
+        // 服务器属性
+        "dev_mode": false,
+        "max_threads": 25,
+        "ssl_port": 8443,
+        "port": 8081,
+        // SSL文件名
+        "keystore": "keystore",
+        // SSL文件密码
+        "password": "123456",
+        //Jetty主密码(与keystore文件相同)
+        "keypassword": "123456",
+        "truststore": "keystore",
+        "trustpassword": "123456"
+    },
+    // 执行服务器
+    "executor": {
+        "port": 12321
+    },
+    // 邮件
+    "mail": {
+        "sender": "xxxxxxxx@163.com",
+        // smtp地址
+        "host": "smtp.163.com",
+        // 显示名称
+        "user": "xxxxxxxx",
+        // 邮箱密码
+        "password": "**********",
+        // 任务失败时发送邮件的地址
+        "failure_email": "xxxxxxxx@163.com",
+        // 任务成功时发送邮件的地址
+        "success_email": "xxxxxxxx@163.com",
+        // 缓存目录
+        "directory": "cache"
+    }
+}
