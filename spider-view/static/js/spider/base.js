@@ -109,7 +109,7 @@ let BASE = {
             'id': 'name_cloud',
             'uri': '',
             'icon': 'glyphicon glyphicon-calendar'
-        },
+        }
     },
     graph_item: {
         '复杂网络': {

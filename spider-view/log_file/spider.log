@@ -2890,3 +2890,33 @@ Traceback (most recent call last):
   File "D:\python36\lib\site-packages\flask\helpers.py", line 709, in send_from_directory
     raise NotFound()
 werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider_competition\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 23:46:16
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider_competition\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 23:46:52
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider_competition\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 23:47:24
+}

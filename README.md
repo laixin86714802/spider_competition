@@ -92,6 +92,8 @@ B站最近更新了防爬策略, 对用户信息接口频繁请求将会封禁, 
 
 # 可视化
 ![](/img/flask_user.png)
+![](/img/flask_data.png)
+![](/img/flask_word.png)
 
 分为用户、视频、词频和复杂网络四大板块及详细的数十个小块
 

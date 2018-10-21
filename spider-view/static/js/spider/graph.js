@@ -25,29 +25,29 @@ Controller.prototype = {
             </a>
         </span>`);
 
-        for (let i in BASE.status_item){
-            if (BASE.status_item[i]['uri']){
+        for (let i in BASE.graph_item){
+            if (BASE.graph_item[i]['uri']){
                 $('.sidenav').append(`
-                <li id="${BASE.status_item[i]['id']}">
-                    <a class="withripple" href="${BASE.status_item[i]['uri']}">
-                        <i class="${BASE.status_item[i]['icon']}"></i>
+                <li id="${BASE.graph_item[i]['id']}">
+                    <a class="withripple" href="${BASE.graph_item[i]['uri']}">
+                        <i class="${BASE.graph_item[i]['icon']}"></i>
                         <span class="sidespan">${i}</span>
                     </a>
                 </li>`);
             } else {
-                _id = BASE.status_item[i]['id'];
+                _id = BASE.graph_item[i]['id'];
                 $('.sidenav').append(`
                 <li id="${_id}">
                     <a class="withripple" href="#">
-                        <i class="${BASE.status_item[i]['icon']}"></i>
+                        <i class="${BASE.graph_item[i]['icon']}"></i>
                         <span class="sidespan">${i}</span>
                         <i class="iright pull-right">&gt;</i>
                     </a>
                     <ul class="sidebar-dropdown"></ul>
                 </li>`);
 
-                for (let j in BASE.status_item[i]['children']){
-                    $('#' + _id + ' ul').append(`<li><a href="${BASE.status_item[i]['children'][j]}" class="withripple">${j}</a></li>`)
+                for (let j in BASE.graph_item[i]['children']){
+                    $('#' + _id + ' ul').append(`<li><a href="${BASE.graph_item[i]['children'][j]}" class="withripple">${j}</a></li>`)
                 }
             }
         }
@@ -70,8 +70,7 @@ Controller.prototype = {
     active_loading: function () {
         $('ul.nav.navbar-nav li').removeClass('active');
         $('ul.sidenav li a').removeClass('hover');
-        $('ul.nav.navbar-nav li:nth-child(1)').addClass('active');
-        $('ul.sidenav li:nth-child(2) a').addClass('hover');
+        $('ul.nav.navbar-nav li:nth-child(4)').addClass('active');
     }
 };
 
