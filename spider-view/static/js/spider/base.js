@@ -110,5 +110,10 @@ let BASE = {
             'uri': '',
             'icon': 'glyphicon glyphicon-calendar'
         },
+    },
+    graph_item: {
+        '复杂网络': {
+            'id': 'graph'
+        }
     }
 };

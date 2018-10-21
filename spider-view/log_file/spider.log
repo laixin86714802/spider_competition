@@ -2680,3 +2680,213 @@ TypeError: The view function did not return a valid response. The function eithe
     'message': 用户名词频统计,
     'time': 2018-10-21 21:31:43
 }
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 22:39:56
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 22:40:03
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 22:40:10
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:18],
+    'stack_trace': None,
+    'message': 获取用户性别,
+    'time': 2018-10-21 23:37:29
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:27],
+    'stack_trace': None,
+    'message': 获取用户注册时间,
+    'time': 2018-10-21 23:37:31
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:36],
+    'stack_trace': None,
+    'message': 获取用户生日,
+    'time': 2018-10-21 23:37:32
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:45],
+    'stack_trace': None,
+    'message': 获取用户签名,
+    'time': 2018-10-21 23:37:34
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:54],
+    'stack_trace': None,
+    'message': 获取用户等级,
+    'time': 2018-10-21 23:37:34
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:63],
+    'stack_trace': None,
+    'message': 获取用户文章观看次数,
+    'time': 2018-10-21 23:37:36
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:72],
+    'stack_trace': None,
+    'message': 获取用户粉丝数,
+    'time': 2018-10-21 23:37:36
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': user.py,
+    'sys_module': user,
+    'function': [D:\virtualenv\spider-view\resources\user.py:get:81],
+    'stack_trace': None,
+    'message': 获取用户粉丝数,
+    'time': 2018-10-21 23:37:37
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 23:37:39
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:18],
+    'stack_trace': None,
+    'message': 视频时长,
+    'time': 2018-10-21 23:37:40
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:27],
+    'stack_trace': None,
+    'message': 视频数量,
+    'time': 2018-10-21 23:37:42
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:36],
+    'stack_trace': None,
+    'message': 视频分区,
+    'time': 2018-10-21 23:37:43
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:45],
+    'stack_trace': None,
+    'message': 硬币数量,
+    'time': 2018-10-21 23:37:44
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': video.py,
+    'sys_module': video,
+    'function': [D:\virtualenv\spider-view\resources\video.py:get:54],
+    'stack_trace': None,
+    'message': 弹幕数量,
+    'time': 2018-10-21 23:37:45
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:18],
+    'stack_trace': None,
+    'message': 签名词频统计,
+    'time': 2018-10-21 23:37:47
+}
+{
+    'level': INFO,
+    'sys_name': etl-server,
+    'file_name': word.py,
+    'sys_module': word,
+    'function': [D:\virtualenv\spider-view\resources\word.py:get:27],
+    'stack_trace': None,
+    'message': 用户名词频统计,
+    'time': 2018-10-21 23:37:50
+}
+{
+    'level': WARNING,
+    'sys_name': etl-server,
+    'file_name': configs.py,
+    'sys_module': configs,
+    'function': [D:\virtualenv\spider-view\configs.py:page_not_found:51],
+    'stack_trace': None,
+    'message': 访问了未知路径: [error: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.],
+    'time': 2018-10-21 23:37:53
+}
+Traceback (most recent call last):
+  File "D:\python36\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python36\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\python36\lib\site-packages\flask\helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "D:\python36\lib\site-packages\flask\helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.

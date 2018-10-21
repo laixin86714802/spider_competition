@@ -1,0 +1,86 @@
+drop table if exists bilibili_user_info;
+drop table if exists bilibili_video_info;
+drop table if exists bilibili_fans_info;
+drop table if exists bilibili_followings_info;
+
+CREATE TABLE `bilibili_fans_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `mid` int(11) NOT NULL COMMENT '用户id',
+  `fmid` int(11) NOT NULL DEFAULT '0' COMMENT '关注id',
+  `mtime` int(11) NOT NULL DEFAULT '0' COMMENT '关注时间',
+  `uname` varchar(255) NOT NULL DEFAULT '' COMMENT '关注用户名',
+  `official_verify_type` tinyint(4) NOT NULL DEFAULT '-1' COMMENT '官方认证类型',
+  `official_verify_desc` varchar(100) NOT NULL DEFAULT '' COMMENT '官方认证描述',
+  `sign` varchar(300) NOT NULL DEFAULT '' COMMENT '用户签名',
+  `insert_time` int(11) NOT NULL DEFAULT '0' COMMENT '写入时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1253974 DEFAULT CHARSET=utf8mb4 COMMENT='粉丝表';
+
+CREATE TABLE `bilibili_followings_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `mid` int(11) NOT NULL COMMENT '用户id',
+  `fmid` int(11) NOT NULL DEFAULT '0' COMMENT '关注id',
+  `mtime` int(11) NOT NULL DEFAULT '0' COMMENT '关注时间',
+  `uname` varchar(255) NOT NULL DEFAULT '' COMMENT '关注用户名',
+  `official_verify_type` tinyint(4) NOT NULL DEFAULT '-1' COMMENT '官方认证类型',
+  `official_verify_desc` varchar(100) NOT NULL DEFAULT '' COMMENT '官方认证描述',
+  `sign` varchar(300) NOT NULL DEFAULT '' COMMENT '用户签名',
+  `insert_time` int(11) NOT NULL DEFAULT '0' COMMENT '写入时间',
+  PRIMARY KEY (`id`),
+  KEY `mid` (`mid`),
+  KEY `fmid` (`fmid`)
+) ENGINE=InnoDB AUTO_INCREMENT=4949146 DEFAULT CHARSET=utf8mb4 COMMENT='关注表';
+
+CREATE TABLE `bilibili_user_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `mid` int(20) NOT NULL COMMENT '用户id',
+  `name` varchar(45) NOT NULL DEFAULT '' COMMENT '用户名',
+  `sex` varchar(45) NOT NULL DEFAULT '' COMMENT '性别',
+  `rank` int(11) NOT NULL DEFAULT '10000' COMMENT 'rank',
+  `face` varchar(300) NOT NULL DEFAULT '' COMMENT '头像',
+  `fans_badge` tinyint(4) NOT NULL DEFAULT '0' COMMENT '粉丝认证',
+  `im9_sign` varchar(48) NOT NULL DEFAULT '' COMMENT '签名',
+  `regtime` int(11) NOT NULL DEFAULT '0' COMMENT '注册时间',
+  `spacesta` tinyint(4) NOT NULL DEFAULT '0' COMMENT 'spacesta',
+  `level` tinyint(4) NOT NULL DEFAULT '0' COMMENT '等级',
+  `birthday` varchar(20) NOT NULL DEFAULT '' COMMENT '生日',
+  `sign` varchar(300) NOT NULL DEFAULT '' COMMENT '用户签名',
+  `official_verify_type` tinyint(4) NOT NULL DEFAULT '-1' COMMENT '官方认证类型',
+  `official_verify_desc` varchar(100) NOT NULL DEFAULT '' COMMENT '官方认证描述',
+  `vip_type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '大会员类型',
+  `vip_status` tinyint(4) NOT NULL DEFAULT '0' COMMENT '大会员状态',
+  `toutu` varchar(255) NOT NULL DEFAULT 'bfs/space/768cc4fd97618cf589d23c2711a1d1a729f42235.png' COMMENT '导航栏图片',
+  `toutu_id` int(11) NOT NULL DEFAULT '1' COMMENT '导航栏图片id',
+  `following` int(11) NOT NULL DEFAULT '0' COMMENT '关注人数',
+  `fans` int(11) NOT NULL DEFAULT '0' COMMENT '粉丝数',
+  `article` int(11) NOT NULL DEFAULT '0' COMMENT '文章观看数',
+  `archive` int(11) NOT NULL DEFAULT '0' COMMENT '视频播放数',
+  `insert_time` int(11) NOT NULL DEFAULT '0' COMMENT '写入时间',
+  PRIMARY KEY (`id`),
+  KEY `mid` (`mid`),
+  KEY `fans` (`fans`)
+) ENGINE=InnoDB AUTO_INCREMENT=81981 DEFAULT CHARSET=utf8mb4 COMMENT='b站用户表';
+
+CREATE TABLE `bilibili_video_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `aid` int(11) NOT NULL DEFAULT '0' COMMENT '视频id',
+  `pubdate` int(11) NOT NULL DEFAULT '0' COMMENT '发布时间',
+  `desc` varchar(500) NOT NULL COMMENT '简介',
+  `duration` int(11) NOT NULL DEFAULT '0' COMMENT '时长(秒)',
+  `mid` int(11) NOT NULL DEFAULT '0' COMMENT '用户id',
+  `title` varchar(255) NOT NULL DEFAULT '' COMMENT '标题',
+  `videos` int(11) NOT NULL DEFAULT '0' COMMENT '视频数量',
+  `tname` varchar(50) NOT NULL DEFAULT '' COMMENT '分区',
+  `coin` int(11) NOT NULL DEFAULT '0' COMMENT '硬币数量',
+  `danmaku` int(11) NOT NULL DEFAULT '0' COMMENT '弹幕数量',
+  `like` int(11) NOT NULL DEFAULT '0' COMMENT '喜欢',
+  `dislike` int(11) NOT NULL DEFAULT '0' COMMENT '不喜欢',
+  `favorite` int(11) NOT NULL DEFAULT '0' COMMENT '收藏',
+  `his_rank` smallint(6) NOT NULL DEFAULT '0' COMMENT '历史排名',
+  `reply` int(11) NOT NULL DEFAULT '0' COMMENT '评论数',
+  `share` int(11) NOT NULL DEFAULT '0' COMMENT '分享数',
+  `view` int(11) NOT NULL DEFAULT '0' COMMENT '观看数',
+  `insert_time` int(11) NOT NULL DEFAULT '0' COMMENT '写入时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=175662 DEFAULT CHARSET=utf8mb4;
+
