@@ -91,7 +91,7 @@ sphinx-rtd-theme==0.4.1
 sphinxcontrib-websupport==1.1.0
 SQLAlchemy==1.2.8
 tensorboard==1.10.0
-tensorflow==1.10.0
+tensorflow==1.15.4
 termcolor==1.1.0
 tornado==5.1
 Twisted==18.9.0
